@@ -7,5 +7,8 @@ load_dotenv()
 API_URL = os.getenv('API_URL')
 API_KEY = os.getenv('API_KEY')
 
+def print_something(string):
+    print(f"you chose to print {string}")
+    
 if __name__ == "__main__":
     create_instance(API_URL, API_KEY)
